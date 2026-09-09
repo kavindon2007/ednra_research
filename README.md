@@ -15,7 +15,6 @@ Read [`problem_statement.md`](./problem_statement.md) for the full task spec, in
 ---
 
 ## Repository Layout
-
 ```text
 .
 ├── AGENTS.md                         # Rules for AI coding tools + transcript logging

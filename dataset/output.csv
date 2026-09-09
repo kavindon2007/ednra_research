@@ -1,111 +1,111 @@
 message_id,action,message_type,reason,confidence,evidence_message_ids
-msg_023,,,,,
-msg_091,,,,,
-msg_090,,,,,
-msg_048,,,,,
-msg_040,,,,,
-msg_075,,,,,
-msg_005,,,,,
-msg_104,,,,,
-msg_069,,,,,
-msg_107,,,,,
-msg_070,,,,,
-msg_003,,,,,
-msg_099,,,,,
-msg_008,,,,,
-msg_092,,,,,
-msg_060,,,,,
-msg_004,,,,,
-msg_030,,,,,
-msg_045,,,,,
-msg_052,,,,,
-msg_009,,,,,
-msg_071,,,,,
-msg_016,,,,,
-msg_065,,,,,
-msg_038,,,,,
-msg_086,,,,,
-msg_014,,,,,
-msg_094,,,,,
-msg_029,,,,,
-msg_105,,,,,
-msg_002,,,,,
-msg_010,,,,,
-msg_078,,,,,
-msg_013,,,,,
-msg_018,,,,,
-msg_044,,,,,
-msg_032,,,,,
-msg_106,,,,,
-msg_006,,,,,
-msg_109,,,,,
-msg_108,,,,,
-msg_019,,,,,
-msg_088,,,,,
-msg_056,,,,,
-msg_027,,,,,
-msg_050,,,,,
-msg_083,,,,,
-msg_063,,,,,
-msg_033,,,,,
-msg_061,,,,,
-msg_020,,,,,
-msg_017,,,,,
-msg_058,,,,,
-msg_026,,,,,
-msg_047,,,,,
-msg_046,,,,,
-msg_042,,,,,
-msg_079,,,,,
-msg_098,,,,,
-msg_037,,,,,
-msg_007,,,,,
-msg_085,,,,,
-msg_001,,,,,
-msg_021,,,,,
-msg_028,,,,,
-msg_012,,,,,
-msg_064,,,,,
-msg_103,,,,,
-msg_031,,,,,
-msg_057,,,,,
-msg_087,,,,,
-msg_067,,,,,
-msg_039,,,,,
-msg_082,,,,,
-msg_066,,,,,
-msg_049,,,,,
-msg_015,,,,,
-msg_051,,,,,
-msg_097,,,,,
-msg_089,,,,,
-msg_053,,,,,
-msg_059,,,,,
-msg_024,,,,,
-msg_072,,,,,
-msg_036,,,,,
-msg_076,,,,,
-msg_055,,,,,
-msg_102,,,,,
-msg_080,,,,,
-msg_093,,,,,
-msg_034,,,,,
-msg_035,,,,,
-msg_101,,,,,
-msg_041,,,,,
-msg_011,,,,,
-msg_110,,,,,
-msg_095,,,,,
-msg_074,,,,,
-msg_073,,,,,
-msg_054,,,,,
-msg_068,,,,,
-msg_100,,,,,
-msg_062,,,,,
-msg_096,,,,,
-msg_043,,,,,
-msg_077,,,,,
-msg_081,,,,,
-msg_025,,,,,
-msg_084,,,,,
-msg_022,,,,,
+msg_023,notify,transactional,[CP-9] Trusted sender with meaningful urgency,0.61,message_0102;message_0243;message_0101
+msg_091,digest,transactional,[DEFAULT] Safe fallback,0.60,message_0238;message_0381
+msg_090,digest,transactional,[DEFAULT] Safe fallback,0.90,none
+msg_048,digest,transactional,[DEFAULT] Safe fallback,0.60,message_0237;message_0151;message_0152
+msg_040,mute,promotion,[CP-2] User actively avoiding source,0.71,message_0136;message_0135
+msg_075,notify,transactional,[CP-9] Trusted sender with meaningful urgency,0.61,message_0206;message_0205
+msg_005,notify,personal,[CP-8] High urgency and user is receptive,0.94,message_0231;message_0049;message_0390;message_0401;message_0065;message_0113;message_0382;message_0066;message_0332;message_0114
+msg_104,mute,personal,[CP-2] User actively avoiding source,0.60,message_0232;message_0050;message_0335;message_0224;message_0383;message_0116;message_0115
+msg_069,mute,group_chat,[CP-2] User actively avoiding source,0.95,message_0080;message_0177;message_0194;message_0042;message_0178;message_0193;message_0247;message_0079
+msg_107,mute,transactional,[CP-1] Fraudulent content from unknown/negative sender,0.60,message_0213;message_0196;message_0174;message_0369;message_0235;message_0056;message_0053;message_0195;message_0023;message_0214;message_0045;message_0173
+msg_070,mute,transactional,[CP-1] Fraudulent content from unknown/negative sender,0.60,message_0213;message_0196;message_0174;message_0369;message_0235;message_0056;message_0053;message_0195;message_0023;message_0214;message_0045;message_0173
+msg_003,notify,transactional,[CP-9] Trusted sender with meaningful urgency,0.61,message_0400;message_0031;message_0267;message_0062;message_0061
+msg_099,notify,personal,[CP-8] High urgency and user is receptive,0.94,message_0118;message_0055;message_0227;message_0228;message_0362;message_0117;message_0249
+msg_008,notify,promotion,[CP-9] Trusted sender with meaningful urgency,0.60,message_0296;message_0071;message_0072
+msg_092,notify,transactional,[CP-8] High urgency and user is receptive,0.93,none
+msg_060,notify,reminder,[CP-8] High urgency and user is receptive,0.95,message_0175;message_0404;message_0284;message_0176;message_0375
+msg_004,notify,transactional,[CP-9] Trusted sender with meaningful urgency,0.61,message_0064;message_0245;message_0063;message_0005
+msg_030,mute,promotion,[CP-2] User actively avoiding source,0.71,message_0232;message_0050;message_0335;message_0224;message_0383;message_0116;message_0115
+msg_045,notify,transactional,[CP-8] High urgency and user is receptive,0.94,message_0146;message_0145
+msg_052,mute,transactional,Scam content from impersonator,0.60,message_0159;message_0207;message_0208;message_0160
+msg_009,mute,group_chat,[CP-2] User actively avoiding source,0.60,message_0073;message_0074
+msg_071,digest,personal,[DEFAULT] Safe fallback,0.60,message_0197;message_0198
+msg_016,digest,transactional,[CP-11] User in Do Not Disturb window,0.60,message_0202;message_0184;message_0201;message_0087;message_0088;message_0024;message_0183
+msg_065,notify,personal,[CP-8] High urgency and user is receptive,0.94,message_0185;message_0186;message_0261
+msg_038,mute,group_chat,[CP-2] User actively avoiding source,0.68,message_0131;message_0132
+msg_086,notify,personal,[CP-8] High urgency and user is receptive,0.60,message_0222
+msg_014,mute,promotion,[CP-3] Opted out of promotional content,0.60,message_0258;message_0083;message_0018;message_0017;message_0084
+msg_094,notify,promotion,[CP-8] High urgency and user is receptive,0.70,none
+msg_029,notify,promotion,[CP-8] High urgency and user is receptive,0.60,message_0231;message_0049;message_0390;message_0401;message_0065;message_0113;message_0382;message_0066;message_0332;message_0114
+msg_105,mute,personal,[CP-2] User actively avoiding source,0.68,message_0373;message_0233
+msg_002,notify,personal,[CP-8] High urgency and user is receptive,0.94,message_0003;message_0060;message_0170;message_0041;message_0059;message_0371;message_0230;message_0266;message_0169
+msg_010,mute,promotion,[CP-3] Opted out of promotional content,0.60,message_0011;message_0076;message_0075;message_0242
+msg_078,mute,transactional,[CP-2] User actively avoiding source,0.61,message_0211;message_0212
+msg_013,mute,promotion,[CP-2] User actively avoiding source,0.61,message_0081;message_0082
+msg_018,digest,promotion,[DEFAULT] Safe fallback,0.60,message_0092;message_0091
+msg_044,mute,transactional,[CP-1] Fraudulent content from unknown/negative sender,0.60,message_0144;message_0036;message_0143
+msg_032,digest,group_chat,[DEFAULT] Safe fallback,0.60,message_0120;message_0374;message_0119;message_0285
+msg_106,notify,other,[CP-8] High urgency and user is receptive,0.94,message_0377;message_0376;message_0234
+msg_006,notify,other,[CP-8] High urgency and user is receptive,0.94,message_0029;message_0129;message_0215;message_0216;message_0044;message_0179;message_0130;message_0098;message_0150;message_0097;message_0068;message_0067;message_0043;message_0190;message_0142;message_0001;message_0149;message_0141;message_0189;message_0030;message_0410;message_0269;message_0180
+msg_109,digest,transactional,[DEFAULT] Safe fallback,0.60,message_0237;message_0151;message_0152
+msg_108,mute,transactional,Scam content from impersonator,0.60,message_0094;message_0236;message_0093
+msg_019,mute,transactional,Scam content from impersonator,0.60,message_0094;message_0236;message_0093
+msg_088,mute,personal,[CP-2] User actively avoiding source,0.60,message_0232;message_0050;message_0335;message_0224;message_0383;message_0116;message_0115
+msg_056,mute,personal,[CP-2] User actively avoiding source,0.60,message_0359;message_0168;message_0226;message_0167;message_0054;message_0225
+msg_027,notify,personal,[CP-8] High urgency and user is receptive,0.60,message_0272;message_0033;message_0007;message_0110;message_0109
+msg_050,notify,transactional,[CP-9] Trusted sender with meaningful urgency,0.60,message_0155;message_0279;message_0156
+msg_083,digest,personal,[DEFAULT] Safe fallback,0.60,message_0219
+msg_063,digest,transactional,[DEFAULT] Safe fallback,0.60,message_0181;message_0182
+msg_033,notify,personal,[CP-9] Trusted sender with meaningful urgency,0.92,message_0393;message_0372;message_0121;message_0409;message_0122;message_0280
+msg_061,mute,promotion,[CP-2] User actively avoiding source,0.71,message_0080;message_0177;message_0194;message_0042;message_0178;message_0193;message_0247;message_0079
+msg_020,mute,transactional,[CP-2] User actively avoiding source,0.60,message_0095;message_0096
+msg_017,mute,transactional,[CP-2] User actively avoiding source,0.60,message_0090;message_0089
+msg_058,mute,scam,[CP-2] User actively avoiding source,0.73,message_0123;message_0241;message_0078;message_0039;message_0013;message_0171;message_0124;message_0014;message_0172;message_0077;message_0040
+msg_026,mute,transactional,Scam content from impersonator,0.60,message_0107;message_0108;message_0032
+msg_047,notify,other,[CP-8] High urgency and user is receptive,0.94,message_0029;message_0129;message_0215;message_0216;message_0044;message_0179;message_0130;message_0098;message_0150;message_0097;message_0068;message_0067;message_0043;message_0190;message_0142;message_0001;message_0149;message_0141;message_0189;message_0030;message_0410;message_0269;message_0180
+msg_046,mute,transactional,[CP-1] Fraudulent content from unknown/negative sender,0.60,message_0148;message_0147
+msg_042,notify,other,[CP-8] High urgency and user is receptive,0.94,message_0057;message_0058;message_0240;message_0139;message_0140
+msg_079,mute,transactional,[CP-1] Fraudulent content from unknown/negative sender,0.60,message_0213;message_0196;message_0174;message_0369;message_0235;message_0056;message_0053;message_0195;message_0023;message_0214;message_0045;message_0173
+msg_098,notify,personal,[CP-8] High urgency and user is receptive,0.94,message_0359;message_0168;message_0226;message_0167;message_0054;message_0225
+msg_037,notify,transactional,[CP-8] High urgency and user is receptive,0.94,message_0029;message_0129;message_0215;message_0216;message_0044;message_0179;message_0130;message_0098;message_0150;message_0097;message_0068;message_0067;message_0043;message_0190;message_0142;message_0001;message_0149;message_0141;message_0189;message_0030;message_0410;message_0269;message_0180
+msg_007,digest,promotion,[DEFAULT] Safe fallback,0.60,message_0070;message_0069
+msg_085,mute,personal,Scam content from impersonator,0.60,message_0221
+msg_001,notify,reminder,[CP-8] High urgency and user is receptive,0.95,message_0057;message_0058;message_0240;message_0139;message_0140
+msg_021,notify,transactional,[CP-8] High urgency and user is receptive,0.94,message_0029;message_0129;message_0215;message_0216;message_0044;message_0179;message_0130;message_0098;message_0150;message_0097;message_0068;message_0067;message_0043;message_0190;message_0142;message_0001;message_0149;message_0141;message_0189;message_0030;message_0410;message_0269;message_0180
+msg_028,mute,personal,[CP-1] Fraudulent content from unknown/negative sender,0.96,message_0034;message_0111;message_0112
+msg_012,mute,promotion,[CP-2] User actively avoiding source,0.71,message_0080;message_0177;message_0194;message_0042;message_0178;message_0193;message_0247;message_0079
+msg_064,digest,transactional,[DEFAULT] Safe fallback,0.60,message_0202;message_0184;message_0201;message_0087;message_0088;message_0024;message_0183
+msg_103,notify,personal,[CP-8] High urgency and user is receptive,0.94,message_0231;message_0049;message_0390;message_0401;message_0065;message_0113;message_0382;message_0066;message_0332;message_0114
+msg_031,notify,group_chat,[CP-8] High urgency and user is receptive,0.94,message_0118;message_0055;message_0227;message_0228;message_0362;message_0117;message_0249
+msg_057,notify,personal,[CP-8] High urgency and user is receptive,0.94,message_0003;message_0060;message_0170;message_0041;message_0059;message_0371;message_0230;message_0266;message_0169
+msg_087,mute,personal,[CP-2] User actively avoiding source,0.60,message_0223;message_0164;message_0163;message_0389;message_0204;message_0358;message_0203;message_0391
+msg_067,notify,transactional,[CP-8] High urgency and user is receptive,0.94,message_0029;message_0129;message_0215;message_0216;message_0044;message_0179;message_0130;message_0098;message_0150;message_0097;message_0068;message_0067;message_0043;message_0190;message_0142;message_0001;message_0149;message_0141;message_0189;message_0030;message_0410;message_0269;message_0180
+msg_039,notify,transactional,[CP-8] High urgency and user is receptive,0.94,message_0209;message_0133;message_0051;message_0210;message_0002;message_0037;message_0364;message_0255;message_0403;message_0134
+msg_082,notify,personal,[CP-8] High urgency and user is receptive,0.94,message_0218;message_0380;message_0397
+msg_066,mute,promotion,[CP-3] Opted out of promotional content,0.70,message_0187;message_0188
+msg_049,notify,transactional,[CP-8] High urgency and user is receptive,0.95,message_0153;message_0291;message_0154
+msg_015,mute,transactional,[CP-1] Fraudulent content from unknown/negative sender,0.60,message_0199;message_0200;message_0085;message_0086
+msg_051,mute,promotion,[CP-3] Opted out of promotional content,0.70,message_0157;message_0257;message_0104;message_0158;message_0103
+msg_097,notify,personal,[CP-9] Trusted sender with meaningful urgency,0.92,message_0359;message_0168;message_0226;message_0167;message_0054;message_0225
+msg_089,digest,transactional,[DEFAULT] Safe fallback,0.60,none
+msg_053,mute,other,[CP-4] Chain forward detected,0.60,message_0253;message_0161;message_0162;message_0411
+msg_059,digest,transactional,[DEFAULT] Safe fallback,0.60,message_0213;message_0196;message_0174;message_0369;message_0235;message_0056;message_0053;message_0195;message_0023;message_0214;message_0045;message_0173
+msg_024,mute,promotion,[CP-3] Opted out of promotional content,0.70,message_0157;message_0257;message_0104;message_0158;message_0103
+msg_072,mute,transactional,[CP-1] Fraudulent content from unknown/negative sender,0.60,message_0199;message_0200;message_0085;message_0086
+msg_036,mute,transactional,Scam content from impersonator,0.60,message_0127;message_0128;message_0283
+msg_076,mute,transactional,Scam content from impersonator,0.60,message_0159;message_0207;message_0208;message_0160
+msg_055,notify,personal,[CP-7] Critical urgency from credible sender,0.95,message_0166;message_0387;message_0165
+msg_102,notify,transactional,[CP-8] High urgency and user is receptive,0.60,message_0003;message_0060;message_0170;message_0041;message_0059;message_0371;message_0230;message_0266;message_0169
+msg_080,notify,transactional,[CP-8] High urgency and user is receptive,0.94,message_0029;message_0129;message_0215;message_0216;message_0044;message_0179;message_0130;message_0098;message_0150;message_0097;message_0068;message_0067;message_0043;message_0190;message_0142;message_0001;message_0149;message_0141;message_0189;message_0030;message_0410;message_0269;message_0180
+msg_093,digest,transactional,[CP-11] User in Do Not Disturb window,0.60,none
+msg_034,mute,personal,[CP-2] User actively avoiding source,0.95,message_0123;message_0241;message_0078;message_0039;message_0013;message_0171;message_0124;message_0014;message_0172;message_0077;message_0040
+msg_035,notify,promotion,[CP-8] High urgency and user is receptive,0.77,message_0125;message_0126;message_0281
+msg_101,mute,personal,[CP-1] Fraudulent content from unknown/negative sender,0.60,message_0268;message_0370;message_0229
+msg_041,notify,promotion,[CP-8] High urgency and user is receptive,0.60,message_0138;message_0137
+msg_011,mute,personal,[CP-2] User actively avoiding source,0.95,message_0123;message_0241;message_0078;message_0039;message_0013;message_0171;message_0124;message_0014;message_0172;message_0077;message_0040
+msg_110,digest,transactional,[DEFAULT] Safe fallback,0.60,message_0238;message_0381
+msg_095,mute,transactional,[CP-1] Fraudulent content from unknown/negative sender,0.60,message_0202;message_0184;message_0201;message_0087;message_0088;message_0024;message_0183
+msg_074,mute,transactional,[CP-2] User actively avoiding source,0.61,message_0223;message_0164;message_0163;message_0389;message_0204;message_0358;message_0203;message_0391
+msg_073,digest,reminder,[DEFAULT] Safe fallback,0.60,message_0202;message_0184;message_0201;message_0087;message_0088;message_0024;message_0183
+msg_054,digest,transactional,[DEFAULT] Safe fallback,0.60,message_0223;message_0164;message_0163;message_0389;message_0204;message_0358;message_0203;message_0391
+msg_068,digest,group_chat,[DEFAULT] Safe fallback,0.60,message_0191;message_0192
+msg_100,notify,personal,[CP-8] High urgency and user is receptive,0.94,message_0118;message_0055;message_0227;message_0228;message_0362;message_0117;message_0249
+msg_062,notify,reminder,[CP-9] Trusted sender with meaningful urgency,0.60,message_0029;message_0129;message_0215;message_0216;message_0044;message_0179;message_0130;message_0098;message_0150;message_0097;message_0068;message_0067;message_0043;message_0190;message_0142;message_0001;message_0149;message_0141;message_0189;message_0030;message_0410;message_0269;message_0180
+msg_096,digest,transactional,[DEFAULT] Safe fallback,0.60,none
+msg_043,notify,transactional,[CP-8] High urgency and user is receptive,0.66,message_0029;message_0129;message_0215;message_0216;message_0044;message_0179;message_0130;message_0098;message_0150;message_0097;message_0068;message_0067;message_0043;message_0190;message_0142;message_0001;message_0149;message_0141;message_0189;message_0030;message_0410;message_0269;message_0180
+msg_077,notify,reminder,[CP-9] Trusted sender with meaningful urgency,0.72,message_0209;message_0133;message_0051;message_0210;message_0002;message_0037;message_0364;message_0255;message_0403;message_0134
+msg_081,notify,personal,[CP-8] High urgency and user is receptive,0.94,message_0217
+msg_025,notify,transactional,[CP-9] Trusted sender with meaningful urgency,0.61,message_0105;message_0106;message_0239;message_0004
+msg_084,digest,personal,[DEFAULT] Safe fallback,0.60,message_0220
+msg_022,mute,transactional,[CP-2] User actively avoiding source,0.60,message_0099;message_0100
