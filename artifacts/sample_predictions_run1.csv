@@ -1,0 +1,31 @@
+message_id,action,message_type,reason,confidence,evidence_message_ids,policy_name,llm_used,llm_message_type,llm_semantic_urgency,msg_elapsed_s
+sample_msg_001,notify,unknown,[CP-8] High urgency and user is receptive,0.9434,message_0029;message_0129;message_0215;message_0216;message_0044;message_0179;message_0130;message_0098;message_0150;message_0097;message_0068;message_0067;message_0043;message_0190;message_0142;message_0001;message_0149;message_0141;message_0189;message_0030;message_0410;message_0269;message_0180,CP-8,True,other,0.6,9.858
+sample_msg_002,notify,event,[CP-8] High urgency and user is receptive,0.9538,message_0209;message_0133;message_0051;message_0210;message_0002;message_0037;message_0364;message_0255;message_0403;message_0134,CP-8,True,reminder,0.7,6.291
+sample_msg_003,notify,personal,[CP-8] High urgency and user is receptive,0.9434,message_0003;message_0060;message_0170;message_0041;message_0059;message_0371;message_0230;message_0266;message_0169,CP-8,True,personal,0.7,6.813
+sample_msg_004,notify,payment,[CP-9] Trusted sender with meaningful urgency,0.6077,message_0105;message_0106;message_0239;message_0004,CP-9,True,transactional,0.6,6.948
+sample_msg_005,notify,payment,[CP-9] Trusted sender with meaningful urgency,0.6077,message_0064;message_0245;message_0063;message_0005,CP-9,True,transactional,0.7,6.169
+sample_msg_006,digest,personal,[DEFAULT] Safe fallback,0.6,message_0006;message_0250;message_0363,DEFAULT,True,personal,0.6,5.296
+sample_msg_007,notify,personal,[CP-8] High urgency and user is receptive,0.6,message_0272;message_0033;message_0007;message_0110;message_0109,CP-8,True,personal,0.6,6.015
+sample_msg_008,digest,promotion,[DEFAULT] Safe fallback,0.6,message_0008,DEFAULT,True,promotion,0.7,7.277
+sample_msg_009,digest,personal,[DEFAULT] Safe fallback,0.6,message_0009,DEFAULT,True,group_chat,0.2,7.445
+sample_msg_010,digest,personal,[DEFAULT] Safe fallback,0.6,message_0316;message_0010;message_0038,DEFAULT,True,group_chat,0.3,7.582
+sample_msg_011,mute,promotion,[CP-3] Opted out of promotional content,0.6,message_0011;message_0076;message_0075;message_0242,CP-3,True,promotion,0.3,7.079
+sample_msg_012,digest,promotion,[DEFAULT] Safe fallback,0.6,message_0012,DEFAULT,True,promotion,0.6,6.524
+sample_msg_013,mute,personal,[CP-2] User actively avoiding source,0.9538,message_0123;message_0241;message_0078;message_0039;message_0013;message_0171;message_0124;message_0014;message_0172;message_0077;message_0040,CP-2,True,personal,0.3,5.439
+sample_msg_014,mute,spam,[CP-4] Chain forward detected,0.7966,message_0256;message_0016,CP-4,False,unknown,0.0,10.003
+sample_msg_015,mute,spam,[CP-4] Chain forward detected,0.9639,message_0258;message_0083;message_0018;message_0017;message_0084,CP-4,False,unknown,0.0,10.003
+sample_msg_019,mute,business_update,[CP-1] Fraudulent content from unknown/negative sender,0.6,message_0199;message_0200;message_0085;message_0086,CP-1,True,security,0.8,9.447
+sample_msg_020,mute,payment,[CP-1] Fraudulent content from unknown/negative sender,0.6,message_0202;message_0184;message_0201;message_0087;message_0088;message_0024;message_0183,CP-1,True,transactional,0.8,5.739
+sample_msg_041,digest,personal,[DEFAULT] Safe fallback,0.6,message_0046,DEFAULT,True,personal,0.6,6.483
+sample_msg_042,digest,personal,[DEFAULT] Safe fallback,0.6,message_0035,DEFAULT,True,personal,0.6,6.051
+sample_msg_043,digest,personal,[DEFAULT] Safe fallback,0.6,message_0048;message_0357,DEFAULT,True,personal,0.6,6.408
+sample_msg_044,notify,payment,[CP-8] High urgency and user is receptive,0.9434,message_0231;message_0049;message_0390;message_0401;message_0065;message_0113;message_0382;message_0066;message_0332;message_0114,CP-8,True,transactional,0.6,6.478
+sample_msg_045,mute,payment,[CP-2] User actively avoiding source,0.6,message_0232;message_0050;message_0335;message_0224;message_0383;message_0116;message_0115,CP-2,True,transactional,0.6,5.464
+sample_msg_046,notify,unknown,[CP-8] High urgency and user is receptive,0.9434,message_0209;message_0133;message_0051;message_0210;message_0002;message_0037;message_0364;message_0255;message_0403;message_0134,CP-8,True,other,0.6,7.367
+sample_msg_047,mute,promotion,[CP-2] User actively avoiding source,0.6928,message_0402,CP-2,True,promotion,0.6,6.215
+sample_msg_048,notify,scam,[CP-8] High urgency and user is receptive,0.9423,message_0412,CP-8,True,scam,0.8,5.938
+sample_msg_049,digest,personal,[DEFAULT] Safe fallback,0.6,none,DEFAULT,True,personal,0.6,6.361
+sample_msg_050,notify,personal,[CP-9] Trusted sender with meaningful urgency,0.9211,message_0359;message_0168;message_0226;message_0167;message_0054;message_0225,CP-9,True,personal,0.2,5.554
+sample_msg_051,notify,personal,[CP-8] High urgency and user is receptive,0.6,message_0118;message_0055;message_0227;message_0228;message_0362;message_0117;message_0249,CP-8,True,personal,0.8,5.516
+sample_msg_052,digest,payment,[DEFAULT] Safe fallback,0.6,message_0238;message_0381,DEFAULT,True,transactional,0.8,6.535
+sample_msg_053,mute,payment,[CP-1] Fraudulent content from unknown/negative sender,0.6,message_0213;message_0196;message_0174;message_0369;message_0235;message_0056;message_0053;message_0195;message_0023;message_0214;message_0045;message_0173,CP-1,True,transactional,0.8,7.072
